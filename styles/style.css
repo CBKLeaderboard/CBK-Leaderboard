@@ -1,0 +1,107 @@
+/*
+Navy #044059
+ust #BBBBBC
+Ceruleans #2A85BC
+Coral #ED5B60
+
+font-family: Poppins,Impact, Charcoal, sans-serif;
+font-family: "Work Sans",'MS Sans Serif', Geneva, sans-serif;
+
+
+
+*/
+#donateButton{
+	margin-bottom: 1ch;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: center;
+}
+#cbkLogo{
+	display: flex;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+h1{
+
+	font-family: Poppins,Impact, Charcoal, sans-serif;
+	color: #ED5B60;
+}
+p{
+	font-family: "Work Sans", 'MS Sans Serif', Geneva, sans-serif;
+	color: #044059;
+}
+a.button{
+	font-family: Poppins,Impact, Charcoal, sans-serif;
+	text-decoration: none;
+	color: white;
+	background-color: #ED5B60;
+	padding: 1vh 1em;
+}
+.topDonators {
+	width: 100%;
+	color: white;
+	font-size: 16px;
+	background-color: #044059;
+	padding-top: 1ch;
+	padding-bottom: 1ch;
+	font-family: Poppins,Impact, Charcoal, sans-serif;
+	display: flex;
+	justify-content: center;
+}
+.collapsibleEven, .collapsibleOdd {
+	width: 100%;
+	border: none;
+	font-family: Poppins,Impact, Charcoal, sans-serif;
+	font-size: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.collapsibleOdd{
+	background: #bbbbbb; 
+}
+.donated, .donations {
+	font-family: "Work Sans",'MS Sans Serif', Geneva, sans-serif;
+	padding-left: 5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.company-image {
+	float: left;
+}
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #ED5B60;
+}
+footer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100px;
+	background-color: #044059;
+	color: #BBBBBC;
+}
+.fa {
+	color: white;
+	padding: 30px;
+	text-decoration: none;
+}
