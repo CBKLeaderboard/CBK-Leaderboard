@@ -15,13 +15,42 @@ font-family: "Work Sans",'MS Sans Serif', Geneva, sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: center;
 }
 #cbkLogo{
 	display: flex;
-	width: 30%;
+	width: 55%;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.ham-nav-container{
+	z-index: auto;
+	float: right;
+	display:block;
+	cursor: pointer;
+}
+a.ham-nav span{ 
+	display:block;
+	background-color : #044059;
+    width: 30px;
+	height: 4px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	transition: 0.4s;
+}
+.transform-ham #ham-top{
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+
+}
+.transform-ham #ham-mid{
+	opacity: 0;
+}
+.transform-ham #ham-bot{
+	-webkit-transform: rotate(45deg) translate(-8px, 100px);
+	transform: rotate(45deg) translate(-7px, -4px);
 }
 html, body{
 	padding: 0;
@@ -74,6 +103,7 @@ a.button{
 }
 .donated, .donations {
 	font-family: "Work Sans",'MS Sans Serif', Geneva, sans-serif;
+	color: white;
 	padding-left: 5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;

@@ -1,0 +1,4 @@
+ignore/*
+scripts/data.js
+scripts/script.py
+scripts/config.json

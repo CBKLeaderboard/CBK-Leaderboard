@@ -74,7 +74,7 @@ function createRow(donator, index){
 	var companyImg= document.createElement("img")
 		companyImg.setAttribute("class", "company-image")
 		companyImg.setAttribute("src", "images/company.pic")
-		companyImg.setAttribute("alt", "image")
+		companyImg.setAttribute("alt", "")
 		tdImg.appendChild(companyImg)
 		tcImg.appendChild(tdImg)
 	//Creating the tr tag that holds the amount of money donated
@@ -183,4 +183,9 @@ function arrayMove(toBeSorted, index){
 	donators.splice(index,1)
 	donators.push(temp)
 }
+
+function transformHamFunction(i){
+	i.classList.toggle("transform-ham")
+}
+
 console.log(document.getElementById('leaderboard'))
